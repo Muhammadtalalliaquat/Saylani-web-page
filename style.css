@@ -137,11 +137,75 @@
   #grenn{
     color: #7ccc5c;
   }
-
 /* markking box ended */
 
- 
+.container-box{
+    width: 95%;
+  }
+  .container-box div{
+    background-color: #f0f0f0;
+    /* border: 1px solid red; */
+    width: 13%;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    transition: 0.1s;
+  }
+  .container-box div:hover{
+    transform: scale(1.1,1.1);
+  }
+  .container-box h3{
+    font-size: 17px;
+    margin-top: 8px;
+  }
 
+  .card-box{
+    /* border: 1px solid #ff0400; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card-box img{
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.5;
+  }
+  .card-box img:hover{
+    opacity: 0.9;
+  }
+  .card-box div{
+    background-color: rgba(0, 0, 0,0.9);
+    border-radius: 10px;
+    width: 26%;
+    height: 250px;
+    transition: 0.1s; 
+  }
+  .card-box div:hover{
+    transform: scale(1.1 ,1.1);
+  }
+  .card-box h3{
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    position: relative;
+    bottom: 75px;
+    left: 10px;
+  }
+  .Donate-button{
+    background-color: #7ccc5c;
+    width: 95%;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #ffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 75px;
+  }
 
 /* medai quaries :started */
 
@@ -220,6 +284,28 @@
     padding-top: 9.5px;
     width: 40%;
     height: 40px;
+   }
+   
+   .container-box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   }
+   .container-box div{
+    width: 100%;
+   }
+   .card-box div:hover{
+    transform: scale(1,1);
+   }
+   .card-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+   .card-box div{
+    margin: 0 auto;
+    width: 95%;
+    height: 340px;
    }
 }  
 
