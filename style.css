@@ -87,8 +87,8 @@
     color: #ffff;
     transition: transform 0.5s;
 }
-.bto:hover:hover{
-    transform: scale(1,1.2); 
+.bto:hover{
+    transform: scale(1.1,1.1);
 }
 /* Nav-bar ended  */
 
@@ -190,7 +190,7 @@
     color: #ffffff;
     position: relative;
     bottom: 75px;
-    left: 10px;
+    left: 17px;
   }
   .Donate-button{
     background-color: #7ccc5c;
@@ -207,6 +207,116 @@
     bottom: 75px;
   }
 
+  .guide-box{
+    width: 75%;
+    background-color: #5052af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 7px;
+  }
+  .guide-box input{
+    background-color: #5052af;
+    border: 1px solid #fff;
+    color: #fffF;
+    border-radius: 5px;
+    width: 60%;
+    height: 45px;
+    padding-left: 6px;
+
+  }
+  ::placeholder{
+    color: #fff;
+    font-size: 13px;
+  }
+  .guide-box input:focus{
+    border: 0.5px solid #ffff;
+    outline: 0.5px solid #fffF;
+  }
+  .guide-box button{
+    width: 60%;
+    height: 45px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 43px;
+  }
+  .backgound{
+     background-image: url(images/footer-img.png);
+     background-repeat: no-repeat;
+     background-color: rgb(63, 62, 62);
+     padding-bottom: 30px;
+  }
+  .main-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding-top: 3%;
+    border-bottom: 1px solid #646464;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.4s;
+  }
+  .main-container:hover{
+    background-color: rgba(94, 94, 95,0.8);
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .main-container>div>img{
+    width: 60%;
+  }
+  .social-icon{
+    width: 60%;
+    border-radius: 10px;
+  }
+  .whatapp-icon{
+    width: 46%;
+    border-radius: 10px;
+  }
+  .footer-info{
+    color: #ffff;
+    display: flex;
+    gap: 70px;
+  }
+  .footer-info a{
+    display: block;
+    color: #fff;
+    margin: 20px 0px;
+  }
+  .Contact{
+    line-height: 1em;
+  }
+  .center-logo{
+    /* background-color: rgba(94, 94, 95,0.8); */
+    border-bottom: 1px solid #808080;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .center-logo>img{
+    width: 15%;
+  }
+  .backgound h5{
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+    padding-left: 55px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    border-bottom: 1px solid #808080;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #IPinfo{
+    color: #5c5cea;
+    transition: 0.3s;
+  }
+  #IPinfo:hover{
+    color: #ffff00;
+  } 
 /* medai quaries :started */
 
 @media only screen and (max-width: 600px){
@@ -301,11 +411,68 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    height: auto;
    }
    .card-box div{
     margin: 0 auto;
     width: 95%;
-    height: 340px;
+    height: 350px;
+   }
+   .card-box img{
+    height: 350px;
+   }
+
+   .guide-box{
+    width: 95%;
+   }
+   .guide-box input{
+    width: 55%;
+   }
+   .guide-box button{
+    width: 55%;
+   }
+   .main-container{
+    width: 100%;
+   }
+   .main-container a{
+    padding-top: 10px;
+
+   }
+   .main-container>div>img{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 7px;
+   }
+   .icon-links{
+    margin: 0 auto;
+    padding-left: 10%;
+   }
+   .footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+   }
+   .footer-info a{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+   }
+   .footer-info a:hover{
+    background-color: #cecdcd;
+    padding-bottom: 8px;
+   }
+   .about{
+    text-align: center;
+   }
+   .Contact{
+    text-align: center;
+   }
+   .explore{
+    text-align: center;
    }
 }  
 
